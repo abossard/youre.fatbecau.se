@@ -1,0 +1,276 @@
+{
+    "breakpoints": {
+        "json()": [
+            {
+                "path": "/config/http.js",
+                "line": 57,
+                "column": 8,
+                "text": "http.js",
+                "content": "        console.log(\"Requested :: \", req.method, req.url);",
+                "enabled": true,
+                "id": 2,
+                "actual": {
+                    "line": 57,
+                    "column": 8,
+                    "script_id": 512
+                },
+                "invalid": false
+            }
+        ]
+    },
+    "console": {
+        "@expanded": true,
+        "@height": 402,
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab3",
+                    "tab1",
+                    "tab7"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": null,
+                    "className": [
+                        "tab1"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "Immediate (Debugger)",
+                        "tooltip": "Immediate (Debugger)",
+                        "immediate": {
+                            "type": "jsbrowser",
+                            "history": [],
+                            "pos": 0
+                        }
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": null,
+                    "className": [
+                        "tab7",
+                        "running"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "server.js - Running",
+                        "tooltip": "server.js - Running",
+                        "output": {
+                            "id": "output186072",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Node.js",
+                                "command": "server.js",
+                                "debug": true,
+                                "name": "",
+                                "env": {}
+                            },
+                            "running": {
+                                "pid": 3927,
+                                "name": "output186072",
+                                "running": 2,
+                                "runner": [
+                                    {
+                                        "cmd": [
+                                            "node",
+                                            "${debug?--nocrankshaft}",
+                                            "${debug?--nolazy}",
+                                            "${debug?`node --version | grep -vqE \"v0\\..\\.\" && echo --nodead_code_elimination`}",
+                                            "${debug?--debug-brk=15454}",
+                                            "$file",
+                                            "$args"
+                                        ],
+                                        "debugger": "v8",
+                                        "debugport": 15454,
+                                        "selector": "source.js",
+                                        "caption": "Node.js",
+                                        "$builtin": true
+                                    }
+                                ],
+                                "debug": true
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": null,
+                    "className": [
+                        "tab3",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1425685242848
+                        },
+                        "filter": true,
+                        "title": "Terminal",
+                        "terminal": {
+                            "id": "devel_744",
+                            "cwd": "",
+                            "width": 791,
+                            "height": 376
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "ext": {
+        "counters": {
+            "@ace": 2,
+            "@acestatus": 1,
+            "@divider": 4,
+            "@document": 7,
+            "@form": 4,
+            "@immediate": 1,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 4,
+            "@postmessage": 2,
+            "@preferences": 1,
+            "@preview": 2,
+            "@session": 7,
+            "@tab": 4,
+            "@undoManager": 7
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab3",
+            "tab2"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": -10,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab3",
+            "meta": {
+                "accessList": [
+                    "tab2",
+                    "tab8"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": null,
+                    "className": [
+                        "tab8"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "Preferences",
+                        "preferences": {
+                            "activePanel": "preferences.keybindings"
+                        }
+                    },
+                    "editorType": "preferences",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab2",
+                    "path": "/server.js",
+                    "className": [
+                        "tab2"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1425685183000
+                        },
+                        "filter": true,
+                        "title": "server.js",
+                        "tooltip": "/server.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/server.js"
+        ]
+    }
+}

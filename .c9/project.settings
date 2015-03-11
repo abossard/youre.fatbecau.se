@@ -8,7 +8,7 @@
     "build": {
         "@builder": "auto",
         "@path": "/.c9/builders",
-        "@saveall": "true"
+        "@saveall": true
     },
     "find.nak": {
         "@searchLimit": 100
@@ -24,7 +24,15 @@
         "@path": "/.c9/runners",
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "direct": {
+                    "command": "nodemon server.js",
+                    "debug": true,
+                    "env": {},
+                    "name": "direct",
+                    "runner": "Shell command"
+                }
+            }
         }
     }
 }

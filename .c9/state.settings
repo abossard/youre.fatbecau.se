@@ -1,4 +1,15 @@
 {
+    "ace": {
+        "search": {
+            "@backwards": "false",
+            "@highlightmatches": "true",
+            "@matchcase": "false",
+            "@preservecase": "false",
+            "@regex": "false",
+            "@wholeword": "false",
+            "@wraparound": "true"
+        }
+    },
     "breakpoints": {
         "json()": [
             {
@@ -20,14 +31,15 @@
     },
     "console": {
         "@expanded": true,
-        "@height": 402,
+        "@height": 327,
         "@maximized": "false",
         "json()": {
             "meta": {
                 "accessList": [
                     "tab3",
                     "tab1",
-                    "tab7"
+                    "tab0",
+                    "tab10"
                 ]
             },
             "name": "pane1",
@@ -40,72 +52,39 @@
                         "tab1"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {},
                         "filter": true,
-                        "title": "Immediate (Debugger)",
-                        "tooltip": "Immediate (Debugger)",
+                        "title": "Immediate (Javascript (browser))",
+                        "tooltip": "Immediate (Javascript (browser))",
                         "immediate": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 2,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 2,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0,
                             "type": "jsbrowser",
                             "history": [],
                             "pos": 0
-                        }
+                        },
+                        "hash": "b2139f378f939e93ffd3e81d66f1ce52d5da5c5a",
+                        "meta": {},
+                        "changed": false
                     },
                     "editorType": "immediate",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
-                    "path": null,
-                    "className": [
-                        "tab7",
-                        "running"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {},
-                        "filter": true,
-                        "title": "server.js - Running",
-                        "tooltip": "server.js - Running",
-                        "output": {
-                            "id": "output186072",
-                            "width": 0,
-                            "height": 0,
-                            "config": {
-                                "runner": "Node.js",
-                                "command": "server.js",
-                                "debug": true,
-                                "name": "",
-                                "env": {}
-                            },
-                            "running": {
-                                "pid": 3927,
-                                "name": "output186072",
-                                "running": 2,
-                                "runner": [
-                                    {
-                                        "cmd": [
-                                            "node",
-                                            "${debug?--nocrankshaft}",
-                                            "${debug?--nolazy}",
-                                            "${debug?`node --version | grep -vqE \"v0\\..\\.\" && echo --nodead_code_elimination`}",
-                                            "${debug?--debug-brk=15454}",
-                                            "$file",
-                                            "$args"
-                                        ],
-                                        "debugger": "v8",
-                                        "debugport": 15454,
-                                        "selector": "source.js",
-                                        "caption": "Node.js",
-                                        "$builtin": true
-                                    }
-                                ],
-                                "debug": true
-                            }
-                        }
-                    },
-                    "editorType": "output",
                     "active": false
                 },
                 {
@@ -126,12 +105,67 @@
                         "terminal": {
                             "id": "devel_744",
                             "cwd": "",
-                            "width": 791,
-                            "height": 376
+                            "width": 1294,
+                            "height": 301
                         }
                     },
                     "editorType": "terminal",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": null,
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "direct - Stopped",
+                        "tooltip": "direct - Stopped",
+                        "output": {
+                            "id": "output682810",
+                            "width": 0,
+                            "height": 0,
+                            "scrollTop": 547,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "nodemon server.js",
+                                "debug": true,
+                                "name": "direct",
+                                "env": {}
+                            }
+                        },
+                        "hash": "67452301efcdab8998badcfe10325476c3d2e1f0",
+                        "meta": {
+                            "timestamp": 1425686021078
+                        },
+                        "changed": false
+                    },
+                    "editorType": "output",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab10",
+                    "path": null,
+                    "className": [
+                        "tab10"
+                    ],
+                    "document": {
+                        "meta": {},
+                        "filter": true,
+                        "title": "Terminal",
+                        "terminal": {
+                            "id": "devel_617",
+                            "cwd": "",
+                            "width": 678,
+                            "height": 376
+                        },
+                        "changed": false
+                    },
+                    "editorType": "terminal",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -141,21 +175,21 @@
     },
     "ext": {
         "counters": {
-            "@ace": 2,
+            "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 7,
+            "@document": 9,
             "@form": 4,
             "@immediate": 1,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 4,
-            "@postmessage": 2,
+            "@postmessage": 1,
             "@preferences": 1,
-            "@preview": 2,
-            "@session": 7,
-            "@tab": 4,
-            "@undoManager": 7
+            "@preview": 1,
+            "@session": 6,
+            "@tab": 8,
+            "@undoManager": 9
         }
     },
     "findinfiles": {
@@ -173,12 +207,13 @@
     "panecycle": {
         "json()": [
             "tab3",
-            "tab2"
+            "tab7"
         ]
     },
     "panels": {
         "@active-left": "tree",
         "@active-right": "none",
+        "@width-left": 314,
         "commands.panel": {
             "@enabled": "true",
             "@name": "commands.panel"
@@ -205,62 +240,131 @@
         "@showfs": true,
         "expanded": {
             "json()": [
-                "/"
+                "/",
+                "/assets/js/dependencies",
+                "/tasks/register",
+                "/api/controllers",
+                "/views/auth",
+                "/tasks/config",
+                "/node_modules/sails/node_modules/sails-generate/node_modules",
+                "/node_modules/sails/node_modules/sails-generate/node_modules/sails-generate-new",
+                "/node_modules/sails/lib",
+                "/node_modules/sails/lib/app",
+                "/node_modules/sails/bin",
+                "/api",
+                "/config",
+                "/api/models",
+                "/api/policies",
+                "/api/responses",
+                "/api/services",
+                "/views"
             ]
         }
     },
     "recentfiles": {
         "json()": []
     },
+    "search-history": {
+        "search": {
+            "json()": [
+                "sailsReady",
+                "_printSuccessMsg"
+            ]
+        }
+    },
     "tabs": {
         "json()": {
-            "focus": "tab3",
+            "focus": "/views/homepage.ejs",
             "meta": {
                 "accessList": [
-                    "tab2",
-                    "tab8"
+                    "tab7",
+                    "tab6",
+                    "tab5",
+                    "tab2"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab8",
-                    "path": null,
-                    "className": [
-                        "tab8"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {},
-                        "filter": true,
-                        "title": "Preferences",
-                        "preferences": {
-                            "activePanel": "preferences.keybindings"
-                        }
-                    },
-                    "editorType": "preferences",
-                    "active": false
-                },
-                {
-                    "type": "tab",
                     "name": "tab2",
-                    "path": "/server.js",
+                    "path": "/config/routes.js",
                     "className": [
                         "tab2"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1425685183000
+                            "timestamp": 1425846546000
                         },
                         "filter": true,
-                        "title": "server.js",
-                        "tooltip": "/server.js",
+                        "title": "routes.js",
+                        "tooltip": "/config/routes.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "/api/controllers/QuoteController.js",
+                    "className": [
+                        "tab5"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1425739180000
+                        },
+                        "filter": true,
+                        "title": "QuoteController.js",
+                        "tooltip": "/api/controllers/QuoteController.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab6",
+                    "path": "/views/homepage.ejs",
+                    "className": [
+                        "tab6",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1426085473422
+                        },
+                        "filter": true,
+                        "title": "homepage.ejs",
+                        "tooltip": "/views/homepage.ejs",
                         "ace": {}
                     },
                     "editorType": "ace",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "/views/layout.ejs",
+                    "className": [
+                        "tab7"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1426085606788
+                        },
+                        "filter": true,
+                        "title": "layout.ejs",
+                        "tooltip": "/views/layout.ejs",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -270,7 +374,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/server.js"
+            "/api"
         ]
     }
 }

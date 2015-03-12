@@ -11,27 +11,11 @@
         }
     },
     "breakpoints": {
-        "json()": [
-            {
-                "path": "/config/http.js",
-                "line": 57,
-                "column": 8,
-                "text": "http.js",
-                "content": "        console.log(\"Requested :: \", req.method, req.url);",
-                "enabled": true,
-                "id": 2,
-                "actual": {
-                    "line": 57,
-                    "column": 8,
-                    "script_id": 512
-                },
-                "invalid": false
-            }
-        ]
+        "json()": []
     },
     "console": {
         "@expanded": true,
-        "@height": 327,
+        "@height": 329,
         "@maximized": "false",
         "json()": {
             "meta": {
@@ -39,7 +23,8 @@
                     "tab3",
                     "tab1",
                     "tab0",
-                    "tab10"
+                    "tab10",
+                    "searchResults"
                 ]
             },
             "name": "pane1",
@@ -105,8 +90,8 @@
                         "terminal": {
                             "id": "devel_744",
                             "cwd": "",
-                            "width": 1294,
-                            "height": 301
+                            "width": 1617,
+                            "height": 303
                         }
                     },
                     "editorType": "terminal",
@@ -166,6 +151,60 @@
                     },
                     "editorType": "terminal",
                     "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "searchResults",
+                    "path": "/.c9/searchresults",
+                    "className": [
+                        "searchResults",
+                        "changed"
+                    ],
+                    "document": {
+                        "changed": true,
+                        "filter": true,
+                        "title": "Search Results",
+                        "tooltip": "/.c9/searchresults",
+                        "ace": {
+                            "folds": [],
+                            "customSyntax": "c9search",
+                            "scrolltop": 120,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 14,
+                                    "column": 46
+                                },
+                                "end": {
+                                    "row": 14,
+                                    "column": 49
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "tabSize": 4,
+                                "useSoftTabs": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 6,
+                                "state": [
+                                    "start",
+                                    {}
+                                ],
+                                "mode": "ace/mode/c9search"
+                            }
+                        },
+                        "meta": {
+                            "searchResults": true,
+                            "ignoreSave": true,
+                            "newfile": true,
+                            "timestamp": 1426110497020
+                        }
+                    },
+                    "editorType": "ace",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -178,7 +217,7 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 9,
+            "@document": 20,
             "@form": 4,
             "@immediate": 1,
             "@menu": 5,
@@ -187,9 +226,9 @@
             "@postmessage": 1,
             "@preferences": 1,
             "@preview": 1,
-            "@session": 6,
-            "@tab": 8,
-            "@undoManager": 9
+            "@session": 16,
+            "@tab": 19,
+            "@undoManager": 20
         }
     },
     "findinfiles": {
@@ -207,13 +246,13 @@
     "panecycle": {
         "json()": [
             "tab3",
-            "tab7"
+            "tab18"
         ]
     },
     "panels": {
         "@active-left": "tree",
         "@active-right": "none",
-        "@width-left": 314,
+        "@width-left": 231,
         "commands.panel": {
             "@enabled": "true",
             "@name": "commands.panel"
@@ -251,13 +290,14 @@
                 "/node_modules/sails/lib",
                 "/node_modules/sails/lib/app",
                 "/node_modules/sails/bin",
-                "/api",
-                "/config",
                 "/api/models",
                 "/api/policies",
                 "/api/responses",
                 "/api/services",
-                "/views"
+                "/node_modules/sails-react",
+                "/node_modules/sails-react/lib",
+                "/assets/templates",
+                "/New Folder"
             ]
         }
     },
@@ -270,17 +310,33 @@
                 "sailsReady",
                 "_printSuccessMsg"
             ]
+        },
+        "searchfiles": {
+            "json()": [
+                "customMiddleware"
+            ]
         }
     },
     "tabs": {
         "json()": {
-            "focus": "/views/homepage.ejs",
+            "focus": "/_archive/config/views.js",
             "meta": {
                 "accessList": [
-                    "tab7",
-                    "tab6",
+                    "tab18",
+                    "tab2",
                     "tab5",
-                    "tab2"
+                    "tab6",
+                    "tab7",
+                    "tab4",
+                    "tab8",
+                    "tab9",
+                    "tab11",
+                    "tab12",
+                    "tab13",
+                    "tab14",
+                    "tab15",
+                    "tab16",
+                    "tab17"
                 ]
             },
             "name": "pane0",
@@ -288,19 +344,45 @@
                 {
                     "type": "tab",
                     "name": "tab2",
-                    "path": "/config/routes.js",
+                    "path": "/_archive/config/routes.js",
                     "className": [
                         "tab2"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1425846546000
-                        },
                         "filter": true,
                         "title": "routes.js",
                         "tooltip": "/config/routes.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 831.5,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 58,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 58,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 42,
+                                "state": "doc-start",
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "cd0e87b9f15fe71c873bee56940ccb11e5263a60",
+                        "meta": {
+                            "timestamp": 1425846546000
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -308,19 +390,41 @@
                 {
                     "type": "tab",
                     "name": "tab5",
-                    "path": "/api/controllers/QuoteController.js",
+                    "path": "/_archive/api/controllers/QuoteController.js",
                     "className": [
                         "tab5"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1425739180000
-                        },
                         "filter": true,
                         "title": "QuoteController.js",
                         "tooltip": "/api/controllers/QuoteController.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 4,
+                                    "column": 64
+                                },
+                                "end": {
+                                    "row": 4,
+                                    "column": 64
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "a9d416549ba261ffdb09160c59bd2c8ddcbb2e90",
+                        "meta": {
+                            "timestamp": 1425739180000
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
@@ -328,43 +432,541 @@
                 {
                     "type": "tab",
                     "name": "tab6",
-                    "path": "/views/homepage.ejs",
+                    "path": "/_archive/views/homepage.ejs",
                     "className": [
-                        "tab6",
+                        "tab6"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "homepage.ejs",
+                        "tooltip": "/views/homepage.ejs",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 27,
+                                    "column": 13
+                                },
+                                "end": {
+                                    "row": 27,
+                                    "column": 13
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "03bdb320214a5475a8f81c561dd4339a73eee7f3",
+                        "meta": {
+                            "timestamp": 1426110724000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "/_archive/views/layout.ejs",
+                    "className": [
+                        "tab7"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "layout.ejs",
+                        "tooltip": "/views/layout.ejs",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 9,
+                                    "column": 93
+                                },
+                                "end": {
+                                    "row": 9,
+                                    "column": 93
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "81964e928a5cb6312a1fd84d26674f3c25597490",
+                        "meta": {
+                            "timestamp": 1426111146000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "/_archive/config/policies.js",
+                    "className": [
+                        "tab4"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "policies.js",
+                        "tooltip": "/config/policies.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 540,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 42,
+                                    "column": 33
+                                },
+                                "end": {
+                                    "row": 42,
+                                    "column": 33
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 20,
+                                "state": "start",
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "73b99d9b8b725c7675b5383231a3f5fef38bd30c",
+                        "meta": {
+                            "timestamp": 1425848348000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "/_archive/config/sockets.js",
+                    "className": [
+                        "tab8"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "sockets.js",
+                        "tooltip": "/config/sockets.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 1800,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "6e59b398e631c35539775c4e79254350c2657d6a",
+                        "meta": {
+                            "timestamp": 1425738965000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/_archive/config/http.js",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "http.js",
+                        "tooltip": "/config/http.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 99,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 24,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 24,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "130e7ded8be50820122d21648b8af958b2ff181a",
+                        "meta": {
+                            "timestamp": 1426110623000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab11",
+                    "path": "/_archive/node_modules/sails-react/index.js",
+                    "className": [
+                        "tab11"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "index.js",
+                        "tooltip": "/node_modules/sails-react/index.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 41,
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "791eb7a6b832960b7ee2148ef3e9cfcc56ffab25",
+                        "meta": {
+                            "timestamp": 1396344178000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab12",
+                    "path": "/_archive/node_modules/sails-react/lib/index.js",
+                    "className": [
+                        "tab12"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "index.js",
+                        "tooltip": "/node_modules/sails-react/lib/index.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 2,
+                                    "column": 27
+                                },
+                                "end": {
+                                    "row": 2,
+                                    "column": 27
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 41,
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "2042037749ca938b485b12afdc601fd423c29f4c",
+                        "meta": {
+                            "timestamp": 1396350535000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab13",
+                    "path": "/_archive/node_modules/sails-react/lib/middleware.js",
+                    "className": [
+                        "tab13"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "middleware.js",
+                        "tooltip": "/node_modules/sails-react/lib/middleware.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 160,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 36,
+                                    "column": 5
+                                },
+                                "end": {
+                                    "row": 36,
+                                    "column": 5
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "5cb651ed2f3003eaac450fca68c003c9a6c2b67f",
+                        "meta": {
+                            "timestamp": 1396652379000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab14",
+                    "path": "/_archive/node_modules/sails/lib/hooks/http/middleware/load.js",
+                    "className": [
+                        "tab14"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "load.js",
+                        "tooltip": "/node_modules/sails/lib/hooks/http/middleware/load.js",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 22,
+                                    "column": 57
+                                },
+                                "end": {
+                                    "row": 22,
+                                    "column": 73
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": {
+                                "row": 9,
+                                "state": "doc-start",
+                                "mode": "ace/mode/javascript"
+                            }
+                        },
+                        "hash": "c2aa6950c033ac41c7383c554f2496d5f2ae6fae",
+                        "meta": {
+                            "timestamp": 1405639336000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab15",
+                    "path": "/_archive/assets/templates/quotedisplay.jsx",
+                    "className": [
+                        "tab15"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "quotedisplay.jsx",
+                        "tooltip": "/assets/templates/quotedisplay.jsx",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 3,
+                                    "column": 29
+                                },
+                                "end": {
+                                    "row": 3,
+                                    "column": 29
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "71981d3a02a2e3f1050615da9391a5ffa65cd2a6",
+                        "meta": {
+                            "timestamp": 1426111148000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab16",
+                    "path": "/_archive/assets/templates/sails-react_14261111338430.7475380897521973",
+                    "className": [
+                        "tab16"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "sails-react_14261111338430.7475380897521973",
+                        "tooltip": "/assets/templates/sails-react_14261111338430.7475380897521973",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "13d5143e04947dd8697318d8c236dcbe70bb8e08",
+                        "meta": {
+                            "timestamp": 1426111133000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab17",
+                    "path": "/_archive/assets/templates/sails-react_14261111523020.23400058690458536",
+                    "className": [
+                        "tab17"
+                    ],
+                    "document": {
+                        "filter": true,
+                        "title": "sails-react_14261111523020.23400058690458536",
+                        "tooltip": "/assets/templates/sails-react_14261111523020.23400058690458536",
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "13d5143e04947dd8697318d8c236dcbe70bb8e08",
+                        "meta": {
+                            "timestamp": 1426111152000
+                        },
+                        "changed": false
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab18",
+                    "path": "/_archive/config/views.js",
+                    "className": [
+                        "tab18",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1426085473422
+                            "timestamp": 1425738965000
                         },
                         "filter": true,
-                        "title": "homepage.ejs",
-                        "tooltip": "/views/homepage.ejs",
+                        "title": "views.js",
+                        "tooltip": "/_archive/config/views.js",
                         "ace": {}
                     },
                     "editorType": "ace",
                     "active": true
-                },
-                {
-                    "type": "tab",
-                    "name": "tab7",
-                    "path": "/views/layout.ejs",
-                    "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1426085606788
-                        },
-                        "filter": true,
-                        "title": "layout.ejs",
-                        "tooltip": "/views/layout.ejs",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -374,7 +976,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/api"
+            "/"
         ]
     }
 }

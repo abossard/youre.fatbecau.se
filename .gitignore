@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+=======
+# Build
+build/app.js
+
+>>>>>>> d2a1ca925e2c1d0a2aae181ee861a82c92354add
 # Logs
 logs
 *.log
 
+<<<<<<< HEAD
 # Runtime data
 pids
 *.pid
@@ -22,12 +29,20 @@ coverage
 
 .tmp
 
+=======
+# Coverage directory used by tools like istanbul
+coverage
+
+>>>>>>> d2a1ca925e2c1d0a2aae181ee861a82c92354add
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
+<<<<<<< HEAD
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+=======
+>>>>>>> d2a1ca925e2c1d0a2aae181ee861a82c92354add
 node_modules
 
 # Users Environment Variables

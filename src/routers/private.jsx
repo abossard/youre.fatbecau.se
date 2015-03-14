@@ -3,14 +3,15 @@ import Router from "react-router";
 let { Route, DefaultRoute, RouteHandler, Link } = Router;
 
 import HomePage from "../pages/home/page.jsx";
+import LogoutPage from "../pages/logout/page.jsx";
 
-
-let LoggedInRouter = React.createClass({
+let PrivateRouter = React.createClass({
   statics: {
     getRoutes() {
       return (
-        <Route name="app" path="/" handler={LoggedInRouter}>
+        <Route name="app" path="/" handler={PrivateRouter}>
           <DefaultRoute name="home" handler={HomePage} />
+          <Route name="logout" handler={LogoutPage} />
         </Route>
       );
     }
@@ -23,6 +24,7 @@ let LoggedInRouter = React.createClass({
           <header>
             <ul>
               <li><Link to="home">Home</Link></li>
+              <li><Link to="logout">Logout</Link></li>
             </ul>
           </header>
         </div>
@@ -36,4 +38,4 @@ let LoggedInRouter = React.createClass({
 });
 
 
-export default LoggedInRouter
+export default PrivateRouter

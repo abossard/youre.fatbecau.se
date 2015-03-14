@@ -16,8 +16,8 @@ import Router from "react-router";
 import Session from "./common/session.js";
 
 // Routers
-import LoggedOutRouter from "./routers/logged_out.jsx";
-import LoggedInRouter from "./routers/logged_in.jsx";
+import PublicRouter from "./routers/public.jsx";
+import PrivateRouter from "./routers/private.jsx";
 
 
 // ID of the DOM element to mount app on
@@ -28,9 +28,9 @@ const DOM_APP_EL_ID = "app";
 let routes;
 
 if (Session.isLoggedIn()) {
-  routes = LoggedInRouter.getRoutes();
+  routes = PrivateRouter.getRoutes();
 } else {
-  routes = LoggedOutRouter.getRoutes();
+  routes = PublicRouter.getRoutes();
 }
 
 /**

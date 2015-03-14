@@ -1,0 +1,28 @@
+<input id="newQuoteInput" type="text" placeholder="No, it's because ...."> <button id="newQuoteButton">Send</button>
+<script>
+$(function(){
+    io.socket.on("quote", function(event){
+        console.log(event);
+    });
+    io.socket.get("/quote", function(resData, jwres) {console.log(resData);})
+    $("#newQuoteButton").click(function(){
+        var newQuote = $("#newQuoteInput").val();
+        if (newQuote) {
+            $.post(
+                '/quote',
+                {text: newQuote},
+                function () {
+                    console.log(arguments);
+                }
+            ).fail(function(res){
+                console.log(arguments);
+            });
+        } else {
+            alert("Enter a new quite, moron");
+        }
+    });
+});
+</script>
+<h1>you eat to much cake!</h1>
+
+<QuoteDisplay sails-react />

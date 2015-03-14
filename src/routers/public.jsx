@@ -1,15 +1,14 @@
 import React from "react";
 import Router from "react-router";
 let { Route, DefaultRoute, RouteHandler } = Router;
-
 import LandingPage from "../pages/landing/page.jsx";
 
 
-let LoggedOutRouter = React.createClass({
+let PublicRouter = React.createClass({
   statics: {
     getRoutes() {
       return (
-        <Route name="app" path="/" handler={LoggedOutRouter}>
+        <Route name="app" path="/" handler={PublicRouter}>
           <DefaultRoute name="landing" handler={LandingPage} />
         </Route>
       );
@@ -28,4 +27,4 @@ let LoggedOutRouter = React.createClass({
 });
 
 
-export default LoggedOutRouter
+export default PublicRouter

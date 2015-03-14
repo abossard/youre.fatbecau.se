@@ -1,0 +1,10 @@
+var QuoteDisplay = React.createClass({
+  render: function() {
+    return (
+      <div className="commentBox">
+        Hello, world! I am a CommentBox.
+      </div>
+    );
+  }
+});
+React.renderComponent(<QuoteDisplay  />, document.getElementById('sails-react_tag_0'));
